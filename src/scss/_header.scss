@@ -6,7 +6,7 @@
     border: 0;
     border-top: 5px solid $blue-dark;
     background: transparent;
-    position: absolute;
+    position: static;
     right: 10px;
     top: 10px;
     transition: 0.3s transform linear;
