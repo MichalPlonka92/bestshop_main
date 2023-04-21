@@ -3,11 +3,21 @@
   box-shadow: 0 -0.3125rem 2.5rem $gray-2;
   margin-top: 3.6875rem;
 
+
+
   .footer__inner {
     max-width: $max-width;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1325px){
+        padding: 0 15px;
+
+
+    }
+
+
 
     .footer__left {
 
@@ -36,6 +46,7 @@
       display: flex;
       align-self: center;
       column-gap: 1.25rem;
+
 
       .logo__outer {
         display: block;
